@@ -5,17 +5,17 @@ alert("Welcome to my page " + userName + "!");
 
 let learningQuestion = prompt("Are you learning JavaScript?");
 console.log(learningQuestion);
-alert(" I'm glad you're learning " + userName + " !");
+alert(" I'm glad you're learning!");
 
 let knowLang = prompt("Do you know HTML & CSS?");
 console.log(knowLang);
-alert(userName + " those are great languages to know!")
+alert("Those are great languages to know!")
 
 let likeQuestion = prompt("Do you like to code?");
 console.log(likeQuestion);
-alert("That's awesome, coding is super cool " + userName + "!");
+alert("That's awesome, coding is super cool!");
 let visQuestion = prompt("Do you like Visual Studio Code?");
 console.log(visQuestion);
-alert(userName + " Visual Studio Code is the best IDE!");
+alert(userName + "," + " that's great cause Visual Studio Code is the best IDE!");
 
 

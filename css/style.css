@@ -21,7 +21,7 @@ p {
     font-size: 20px;
     background: transparent;
     color: rgb(59, 59, 114);
-    text-align: justify;
+    text-align: left;
 }
 .rainbow {
     -webkit-animation: rainbow 5s infinite;

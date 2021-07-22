@@ -33,6 +33,14 @@ ol,li, ul, li {
   color: rgb(59, 59, 114);
   text-align: left;
 }
+button {
+	border-radius: 0%;
+  border-color: transparent;
+  background-color: orange;
+  font-size: 1em;
+  padding: 8px 15px 8px 15px;
+  
+}
 .rainbow {
     -webkit-animation: rainbow 5s infinite;
 }

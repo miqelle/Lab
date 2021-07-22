@@ -50,32 +50,51 @@ else
 }
 alert("Feel free to explore the page " + userName + " 😊" + "!");
 
-let num = 4;
-alert("You're about to guess how many hours I spent working on this assignment!");
-let guess= prompt("Guess a number between 1 and 5");
-if (guess > num)
+//give the user four try's
+for (let tries = 1; tries < 5; tries++)
 {
-    alert("That's too high!");
-    
-} 
-else
-{
-    prompt("Guess a number between 1 and 5");
+    let userAnswer = prompt("Guess a number between 1 and 5")//take in a numeric input by prompting the user to guess a number
+    if(userAnswer > 4)
+    {
+        alert("That's too high!");//Use alert if userAnswer is too high 
+    }
+    if(userAnswer < 4)//use alert if userAnser is too low
+    {
+        alert("That's too low!");
+    }
 }
-if (guess < num)
-{
-    alert("That's too low");
-    
-}
-else
-{
-    alert("The answer is 4!");
-}
+alert("The answer is 4!");//after all try's used alert("The answer is 4");
 
-let userPoints = 0;
-alert('Welcome to my third guessing game !' + userName);
+//Add a question with multiple correct answers 
+prompt("What city would I like to visit?");
 
-let answerto = prompt('Is my number one place to visit New Orleans?', 'type yes or no').toLowerCase();
+
+//create an array
+citiesToVisit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let userPoints = 0;
+alert('Welcome to my third guessing game ' + userName + "!");
+
+let answerto = prompt('Is my number one place to visit New Orleans?', 'Type yes or no').toLowerCase();
 console.log(answer);
 
 let placesToGo = ['New Orleans', 'St. Louis', 'San Diego', 'San Francisco'];
@@ -84,9 +103,19 @@ for (let i = 0; i < placesToGo.length; i++) {
   console.log(placesToGo[i]);
 }
 if (answer === 'yes' || answer === 'y') {
+ 
   userPoints++;
 } else {
   alert('Wrong! try again');
 }
 alert('You could have guessed either one of these: New Orleans, St.Louis, San Diego, or San Francisco');
 alert('you have ' + userPoints + ' points.');
+ */
+
+
+
+
+
+
+
+

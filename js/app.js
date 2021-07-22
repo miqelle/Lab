@@ -38,6 +38,17 @@ else
     alert("Take a look around, the answer is right in front of you!");
 }
 
+let anotherQuestion = prompt("Do I want to be an experienced App Developer?");
+let anotherAnswer = "yes";
+if ( anotherQuestion === 'y' || anotherQuestion ==='yes')
+{
+    alert("YES, I really do!");
+}
+else
+{
+    alert("Try again!");
+}
+
 let visQuestion = prompt("Do I like Visual Studio Code?");
 let visAnswer = "yes";
 if ( visQuestion === 'y' ||  visQuestion === 'yes')
@@ -65,15 +76,15 @@ for (let tries = 1; tries < 5; tries++)
 }
 alert("The answer is 4!");//after all try's used alert("The answer is 4");
 
-//Add a question with multiple correct answers 
+/* //Add a question with multiple correct answers 
 prompt("What city would I like to visit?");
 
 
 //create an array
-citiesToVisit
+let citiesToVisit = ['New Orleans', 'St. Louis', 'San Diego', 'San Francisco'];
 
 
-
+ */
 
 
 

@@ -35,7 +35,7 @@ if (likeQuestion === 'y' || likeQuestion === 'yes')
 }
 else
 {
-    alert("Take a look around, the answer is right inf front of you!");
+    alert("Take a look around, the answer is right in front of you!");
 }
 
 let visQuestion = prompt("Do I like Visual Studio Code?");
@@ -51,15 +51,42 @@ else
 alert("Feel free to explore the page " + userName + " 😊" + "!");
 
 let num = 4;
-alert("You're about to guess how many hours I worked on this assignment!");
+alert("You're about to guess how many hours I spent working on this assignment!");
 let guess= prompt("Guess a number between 1 and 5");
 if (guess > num)
 {
     alert("That's too high!");
-    prompt("Guess a number between 1 and 5");
+    
 } 
-else (guess < num)
+else
 {
-    alert("That's too low");
     prompt("Guess a number between 1 and 5");
 }
+if (guess < num)
+{
+    alert("That's too low");
+    
+}
+else
+{
+    alert("The answer is 4!");
+}
+
+let userPoints = 0;
+alert('Welcome to my third guessing game !' + userName);
+
+let answerto = prompt('Is my number one place to visit New Orleans?', 'type yes or no').toLowerCase();
+console.log(answer);
+
+let placesToGo = ['New Orleans', 'St. Louis', 'San Diego', 'San Francisco'];
+
+for (let i = 0; i < placesToGo.length; i++) {
+  console.log(placesToGo[i]);
+}
+if (answer === 'yes' || answer === 'y') {
+  userPoints++;
+} else {
+  alert('Wrong! try again');
+}
+alert('You could have guessed either one of these: New Orleans, St.Louis, San Diego, or San Francisco');
+alert('you have ' + userPoints + ' points.');

@@ -4,10 +4,10 @@ alert("Welcome to my page " + userName + "!");
 alert(userName + " I'm going to ask you a series of questions!");
 alert("You can only answer yes or no!");
 
-let addQuestion = prompt("Does 1 + 1 = 2 ?");
+let nameQuestion = prompt("Is my first name Miqelle?");
 let answer = ("yes");
 
-if ( addQuestion === 'y' || addQuestion === 'yes' ) 
+if ( nameQuestion === 'y' || nameQuestion === 'yes' ) 
 {
     alert("Good job that's correct 😊");
 }
@@ -16,37 +16,37 @@ else
     alert("Try again");
 }
 
-let knowLang = prompt("Do you know HTML & CSS?");
+let wrkQuestion = prompt("Have I worked in Customer Service?");
 let knowAnswer = "yes";
-if ( knowLang === 'y' || knowLang ==='yes')
+if ( wrkQuestion === 'y' || wrkQuestion ==='yes')
 {
-    alert("Great job, keep learning!");
+    alert("Correct, I sure did!");
 }
 else
 {
-    alert("Wrong answer, you should study!");
+    alert("Try again!");
 }
 
-let likeQuestion = prompt("Do you like to code?");
+let likeQuestion = prompt("Do I like the color yellow?");
 let likeAnswer = "yes";
 if (likeQuestion === 'y' || likeQuestion === 'yes') 
 {
-    alert("You'll be a pro in no time!");
+    alert("Correct, I think yellow is 🔥 ");
 }
 else
 {
-    alert("Maybe one day you will like coding!");
+    alert("Take a look around, the answer is right inf front of you!");
 }
 
-let visQuestion = prompt("Do you like Visual Studio Code?");
+let visQuestion = prompt("Do I like Visual Studio Code?");
 let visAnswer = "yes";
 if ( visQuestion === 'y' ||  visQuestion === 'yes')
 {
-    alert("You have exquisite taste!");
+    alert("Bingo! That's right");
 }
 else
 {
-    alert("Visual Studio Code is a good choice!");
+    alert("Guess again!");
 }
 alert("Feel free to explore the page " + userName + " 😊" + "!");
 
@@ -56,11 +56,10 @@ let guess= prompt("Guess a number between 1 and 5");
 if (guess > num)
 {
     alert("That's too high!");
+    prompt("Guess a number between 1 and 5");
 } 
 else (guess < num)
 {
     alert("That's too low");
     prompt("Guess a number between 1 and 5");
 }
-
-

@@ -23,6 +23,16 @@ p {
     color: rgb(59, 59, 114);
     text-align: left;
 }
+h2 {
+  color: rgb(59, 59, 114);
+  background: transparent;
+  text-align: left;
+}
+ol,li, ul, li {
+  background: transparent;
+  color: rgb(59, 59, 114);
+  text-align: left;
+}
 .rainbow {
     -webkit-animation: rainbow 5s infinite;
 }

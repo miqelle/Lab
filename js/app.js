@@ -50,3 +50,27 @@ else
 }
 alert("Feel free to explore the page " + userName + " 😊" + "!");
 
+let num = 4;
+let answer = false;
+for(let counter=1; counter <=4; counter++)
+{
+    alert("You're about to guess how many hours I worked on this assignment!");
+    let guess= prompt("Guess a number between 1 and 5");
+}
+if (guess > num)
+{
+    alert("That's too high!");
+} 
+if (guess < num)
+{
+    alert("That's too low");
+}
+if(guess == num)
+{
+    alert("That's right!");
+    answer = true;
+}
+if(!num)
+{
+    alert("The correct answer is 4!");
+}
